@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="Mapping">
+        <Group ID="[0]">
+          <Property ID="Alarm" Value="gCncXYZ.System" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="MOVE_PAUSED" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="NewAlarm" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Alarm" Value="gCncXYZ.Initialized" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="MOVE_PAUSED" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="NewAlarm" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Alarm" Value="gCncXYZ.Workspace" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="MOVE_PAUSED" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="NewAlarm" />
+          </Selector>
+        </Group>
+      </Group>
+      <Group ID="Default">
+        <Selector ID="[1]" Value="Reaction">
+          <Property ID="Name" Value="NewAlarm" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

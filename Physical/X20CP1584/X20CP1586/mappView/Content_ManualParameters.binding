@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Content_ManualParameters_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Bindings>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisControl.MpCncAxisXYZ.Z" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxesZ_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisControl.MpCncAxisXYZ.Y" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxesY_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisControl.MpCncAxisXYZ.X" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxesX_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.RelativeJogAxesZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxisZ_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.RelativeJogAxesY" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxisY_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.RelativeJogAxesX" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="AxisX_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParSpindleControl.SpindleOn" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="Spindle_ToggleSwitch" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.JogDeceleration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="Deceleration_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.JogAccelaration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="Acceleration_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.JogVelocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="Velocity_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.InputLetter" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="LetterManual_TextInput" attribute="value" />
+</Binding>
+
+
+
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParSpindleControl.SpindleOn" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOn].visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::SpindleCon:StatusSpindleOn" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOff].visible" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.JogVelAxesX" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="JoystickJog" attribute="xValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Mannual_Mo:Parameter.JogVelAxesY" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="JoystickJog" attribute="yValue" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::XYPosition:YArraySpindleOn" attribute="node" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOn].nodeY" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::XYPosition:XArraySpindleOn" attribute="node" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOn].nodeX" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::XYPosition:XArraySpindleOff" attribute="node" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOff].nodeX" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::XYPosition:YArraySpindleOff" attribute="node" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="XYChart1" attribute="graph[graph_SpindleOff].nodeY" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ProgramMas:StatusOutput.StatusCncString" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_ManualParameters" widgetRefId="TextOutStatusManual" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

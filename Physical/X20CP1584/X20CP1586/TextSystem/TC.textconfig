@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="en" />
+      <Property ID="UserFallbackLanguage" Value="en" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="en" />
+        <Property ID="TargetLanguage[2]" Value="pl" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="Alarms.AlarmTexts.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.Resources.Texts.Translation_Pages.Parameters_LocalizableTexts.tmx" Description="Translation Page Parameters" />
+      <Property ID="TargetFile[3]" Value="mappView.Resources.Texts.Translation_Pages.AreaContent_LocalizableTexts.tmx" Description="Translation Package Area Content" />
+      <Property ID="TargetFile[4]" Value="mappView.Resources.Texts.Translation_Pages.CockPit_LocalizableTexts.tmx" Description="Translation Cockpit Page" />
+      <Property ID="TargetFile[5]" Value="mappView.Resources.Texts.Translation_Pages.GCode_LocalizableTexts.tmx" Description="Translation G-Code Page" />
+      <Property ID="TargetFile[6]" Value="mappView.Resources.Texts.Translation_Pages.Automatic_LocalizableTexts.tmx" Description="Translation Automatic Page" />
+      <Property ID="TargetFile[7]" Value="mappView.Resources.Texts.Translation_Pages.Manual_LocalizableTexts.tmx" Description="Translation Manual Page" />
+      <Property ID="TargetFile[8]" Value="mappView.Resources.Texts.Translation_Pages.Home_LocalizableTexts.tmx" Description="Translation Home Page" />
+      <Property ID="TargetFile[9]" Value="mappView.Resources.Texts.Translation_Pages.Global_LocalizableTexts.tmx" />
+      <Property ID="TargetFile[10]" Value="mappView.Resources.Texts.Translation_Pages.Alarms_LocalizableTexts.tmx" Description="Translation Alarms Page" />
+      <Property ID="TargetFile[11]" Value="mappView.Resources.Texts.Translation_Pages.MessageBoxes_LocalizableTexts.tmx" Description="Translation Message Boxes in HMI" />
+    </Group>
+  </Element>
+</Configuration>

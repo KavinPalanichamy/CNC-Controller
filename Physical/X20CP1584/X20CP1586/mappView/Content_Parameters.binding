@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Content_Parameters_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+	
+	<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.Scale" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Scale_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.FeedRate" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="FeedRate_NumericInput" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.MaxVelocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="MaxVelocity_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.Acceleration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Acceleration_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.Deceleration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Deceleration_NumericInput" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.ScaleFactor" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Scale_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.FeedRate" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Speed_NumericOutput" attribute="value" />
+</Binding>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.MaxVelocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="MaxVelocity_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.Acceleration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Acceleration_NumericOutput1" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.Deceleration" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="Deceleration_NumericOutput" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ProgramMas:StatusOutput.OperatingModeString" attribute="value" />
+<Target xsi:type="brease" contentRefId="Header" widgetRefId="TextOutput5" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParAxisControl.PowerOn" attribute="value" />
+<Target xsi:type="brease" contentRefId="Naviagation" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Status.ActiveLetterIdx" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="ProgressBar2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Status.ActiveLetter" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="TextOutput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Status.ActiveLetterIdx" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="NumericOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Status.WordLen" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Parameter.InputWord" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="TextOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ProgramMas:StatusOutput.StatusCncString" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="TextOutput10" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Status.WordLen" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="ProgressBar2" attribute="maxValue" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Automatic_:Parameter.InputWord" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_AutomaticMode" widgetRefId="TextInput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:HmiPrgInterface.setDisableSelectMode" attribute="value" />
+<Target xsi:type="brease" contentRefId="Naviagation" widgetRefId="HomePage_NavigationButton" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:HmiPrgInterface.setDisableSelectMode" attribute="value" />
+<Target xsi:type="brease" contentRefId="Naviagation" widgetRefId="HomePage_NavigationButton" attribute="enable" />
+</Binding>
+
+	
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ParSpindleControl.SpindleSpeed" attribute="node" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="SpindleSpeed_NumericOutput" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::InputMotor:ParMotorInput.SpindleSpeed" attribute="value" />
+<Target xsi:type="brease" contentRefId="Content_Parameters" widgetRefId="SpindleSpeed_NumericInput" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Feature_Spindles" Type="axesgroupfeature">
+    <Selector ID="Type" Value="Spindles">
+      <Selector ID="ModalDataBehaviour" Value="UseAxesGroupSettings" />
+      <Group ID="Spindle[1]">
+        <Property ID="SlaveAxisName" Value="QS" />
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

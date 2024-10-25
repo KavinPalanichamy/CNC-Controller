@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="Naviagation_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="Naviagation.HomePage_NavigationButton1.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Naviagation" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="$IAT/MessBox_Naviagation_ProceedReset" header="" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result=1">
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.setRestartFlag">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::MotorContr:ResetStage">
+                      <Method xsi:type="opcUa.NodeAction.SetValueNumber" value="1" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="homePage" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:HmiPrgInterface.setRestartFlag" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog_0" headerText="$IAT/MessBox_ControlButtons" autoClose="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="dialog_0" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Naviagation.ButtonHome.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Naviagation" widgetRefId="ButtonHome" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:ParAxisControl.GoHome">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

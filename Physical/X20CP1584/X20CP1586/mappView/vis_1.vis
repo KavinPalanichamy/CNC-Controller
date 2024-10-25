@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="vis_1" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="homePage" />
+  <Pages>
+    <Page refId="homePage" />
+    <Page refId="Parameters" />
+    <Page refId="Alarms" />
+    <Page refId="CockPit" />
+    <Page refId="Page_GCode" />
+    <Page refId="page_Automatic" />
+    <Page refId="page_Manual" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="Content_Parameters_binding" />
+    <BindingsSet refId="Content_Alarms_binding" />
+    <BindingsSet refId="GCodeContent_binding" />
+    <BindingsSet refId="content_ControlButtons_binding" />
+    <BindingsSet refId="Naviagation_binding" />
+    <BindingsSet refId="Content_ManualParameters_binding" />
+    <BindingsSet refId="Menu_binding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="Content_Parameters_eventbinding" />
+    <EventBindingsSet refId="Content_Alarms_eventbinding" />
+    <EventBindingsSet refId="WebViewer_eventbinding" />
+    <EventBindingsSet refId="GoBack_eventbinding" />
+    <EventBindingsSet refId="GCodeContent_eventbinding" />
+    <EventBindingsSet refId="Content_ManualParameters_eventbinding" />
+    <EventBindingsSet refId="HomeContent_eventbinding" />
+    <EventBindingsSet refId="Naviagation_eventbinding" />
+    <EventBindingsSet refId="content_AutomaticMode_eventbinding" />
+    <EventBindingsSet refId="content_ControlButtons_eventbinding" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="dialog_0" />
+  </Dialogs>
+  <Contents>
+    <Content refId="Header" />
+    <Content refId="Content_Alarms" />
+    <Content refId="Naviagation" />
+    <Content refId="Content_Parameters" />
+    <Content refId="WebViewer" />
+    <Content refId="content_ControlButtons" />
+    <Content refId="GCodeContent" />
+    <Content refId="HomeContent" />
+    <Content refId="content_AutomaticMode" />
+    <Content refId="GoBack" />
+    <Content refId="Menu" />
+    <Content refId="ContentDialog" />
+    <Content refId="Content_ManualParameters" />
+    <Content refId="ControlsGCode" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Themes>
+    <Theme refId="BuRThemeFlat2" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

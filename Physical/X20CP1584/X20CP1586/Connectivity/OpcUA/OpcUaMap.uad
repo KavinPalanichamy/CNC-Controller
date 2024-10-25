@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="B4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="SpindleControl">
+          <Variable Name="MpAxisSpindle">
+            <Variable Name="Velocity" />
+          </Variable>
+        </Variable>
+        <Variable Name="AxisControl">
+          <Variable Name="MpCncAxisXYZ">
+            <Variable Name="X" />
+            <Variable Name="Y" />
+            <Variable Name="Z" />
+            <Variable Name="Interrupt" />
+            <Variable Name="Continue" />
+            <Variable Name="Stop" />
+            <Variable Name="PowerOn" />
+            <Variable Name="IsHomed" />
+            <Variable Name="MoveActive" />
+            <Variable Name="MoveInterrupted" />
+            <Variable Name="InMotion" />
+            <Variable Name="MoveDone" />
+            <Variable Name="Error" />
+            <Variable Name="Jog" />
+            <Variable Name="Stopped" />
+            <Variable Name="PathVelocity" />
+          </Variable>
+        </Variable>
+        <Variable Name="ParSpindleControl">
+          <Variable Name="SpindleOn" />
+          <Variable Name="SpindleSpeed" />
+        </Variable>
+        <Variable Name="ParAxisControl">
+          <Variable Name="ScaleFactor" />
+          <Variable Name="ScaleFactorZaxis" />
+          <Variable Name="FeedRate" />
+          <Variable Name="MaxVelocity" />
+          <Variable Name="Deceleration" />
+          <Variable Name="Acceleration" />
+          <Variable Name="PowerOn" />
+          <Variable Name="XAxisOffset" />
+          <Variable Name="YAxisOffset" />
+          <Variable Name="GoHome" />
+        </Variable>
+        <Variable Name="enumOperatingMode" />
+        <Variable Name="enumStatusCnc" />
+        <Variable Name="HmiPrgInterface">
+          <Variable Name="errorEmptyString" />
+          <Variable Name="errorSwitchStateConflict" />
+          <Variable Name="errorMotorOFF" />
+          <Variable Name="alertExecutionStarted" />
+          <Variable Name="dataCurrentModePageRef" />
+          <Variable Name="setDisableSelectMode" />
+          <Variable Name="setRestartFlag" />
+          <Variable Name="alertExecutionDone" />
+          <Variable Name="errorAxisErrorState" />
+        </Variable>
+        <Variable Name="AlarmBlocks">
+          <Variable Name="MpAlarmXCore_All">
+            <Variable Name="Error" />
+            <Variable Name="ErrorReset" />
+          </Variable>
+          <Variable Name="MpAlarmXHistory_All">
+            <Variable Name="Error" />
+            <Variable Name="ErrorReset" />
+          </Variable>
+          <Variable Name="MpAlarmXHistoryUI_All">
+            <Variable Name="Error" />
+            <Variable Name="ErrorReset" />
+          </Variable>
+          <Variable Name="MpAlarmXListUI_All">
+            <Variable Name="Error" />
+            <Variable Name="ErrorReset" />
+          </Variable>
+        </Variable>
+        <Variable Name="Alarms">
+          <Variable Name="NewAlarm" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="Automatic_">
+        <Variable Name="Parameter">
+          <Variable Name="InputWord" />
+          <Variable Name="CommitWord" />
+        </Variable>
+        <Variable Name="Status">
+          <Variable Name="ActiveLetter" />
+          <Variable Name="ActiveLetterIdx" />
+          <Variable Name="ProgramNamePrefix" />
+          <Variable Name="WordLen" />
+        </Variable>
+      </Task>
+      <Task Name="Gcode_Mode" />
+      <Task Name="ProgramMas">
+        <Variable Name="StatusOutput">
+          <Variable Name="OperatingModeString" />
+          <Variable Name="StatusCncString" />
+        </Variable>
+      </Task>
+      <Task Name="MotorContr">
+        <Variable Name="ResetStage" />
+      </Task>
+      <Task Name="Mannual_Mo">
+        <Variable Name="Parameter">
+          <Variable Name="RelativeJogAxesY" />
+          <Variable Name="RelativeJogAxesZ" />
+          <Variable Name="RelativeJogAxesX" />
+          <Variable Name="JogVelocity" />
+          <Variable Name="JogDeceleration" />
+          <Variable Name="JogAccelaration" />
+          <Variable Name="CommitLetter" />
+          <Variable Name="InputLetter" />
+          <Variable Name="JogVelAxesY" />
+          <Variable Name="JogVelAxesX" />
+          <Variable Name="CommitAddJog" />
+          <Variable Name="CommitVelocityJog" />
+          <Variable Name="JogVelAxesZ" />
+          <Variable Name="CommitAddJogWaitForPower" />
+        </Variable>
+      </Task>
+      <Task Name="InputMotor">
+        <Variable Name="ParMotorInput">
+          <Variable Name="Acceleration" />
+          <Variable Name="Deceleration" />
+          <Variable Name="SpindleSpeed" />
+          <Variable Name="MaxVelocity" />
+          <Variable Name="Scale" />
+          <Variable Name="FeedRate" />
+          <Variable Name="CommitChanges" />
+        </Variable>
+      </Task>
+      <Task Name="XYPosition">
+        <Variable Name="YArraySpindleOn" />
+        <Variable Name="YArraySpindleOff" />
+        <Variable Name="XArraySpindleOn" />
+        <Variable Name="XArraySpindleOff" />
+      </Task>
+      <Task Name="SpindleCon">
+        <Variable Name="StatusSpindleOn" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

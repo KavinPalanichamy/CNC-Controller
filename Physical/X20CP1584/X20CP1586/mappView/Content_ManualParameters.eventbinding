@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="Content_ManualParameters_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Content_ManualParameters" widgetRefId="CommitAddJog_Button" event="Click" />
+      <Operand datatype="BOOL" name="GetMotorOFFStatus">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="NOT GetMotorOFFStatus">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Mannual_Mo:Parameter.CommitAddJog">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="GetMotorOFFStatus">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="Cannot Engrave if Power is OFF. Switch it ON??" header="Turn ON Power" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+            <ResultHandler condition="result = 1">
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:ParAxisControl.PowerOn">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::Mannual_Mo:Parameter.CommitAddJogWaitForPower">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Content_ManualParameters" widgetRefId="CommitLetter_Button" event="Click" />
+      <Operand datatype="BOOL" name="GetMotorOFFStatus">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetMotorOFFStatus">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="Cannot Engrave if Power is OFF. Switch it ON??" header="Turn ON Power" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+            <ResultHandler condition="result = 1">
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:ParAxisControl.PowerOn">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::Mannual_Mo:Parameter.CommitLetter">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT GetMotorOFFStatus">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Mannual_Mo:Parameter.CommitLetter">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="content_AutomaticMode_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_6">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:HmiPrgInterface.alertExecutionStarted" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/MessBox_Aut_started" header="" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.alertExecutionStarted">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_7">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:HmiPrgInterface.alertExecutionDone" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/MessBox_Aut_engraved" header="$IAT/MessBox_Title_DONE" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.alertExecutionStarted">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="content_AutomaticMode" widgetRefId="Button2" event="Click" />
+      <Operand datatype="BOOL" name="GetMotorOFFStatus">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetMotorOFFStatus=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="$IAT/MessBox_Aut_Poweroff" header="$IAT/MessBox_title_turnOn" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.errorMotorOFF">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.errorEmptyString">
+                      <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+            <ResultHandler condition="result = 1">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:ParAxisControl.PowerOn">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_AutomaticMode.GroupBox3.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="content_AutomaticMode" widgetRefId="Button2" event="Click" />
+      <Operand datatype="BOOL" name="GetEmptyStrStatus">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:HmiPrgInterface.errorEmptyString">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetEmptyStrStatus=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="$IAT/MessBox_Aut_blank" header="$IAT/MessBox_title_enterWord" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:HmiPrgInterface.errorEmptyString">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="content_AutomaticMode.Button2.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="content_AutomaticMode" widgetRefId="Button2" event="Click" />
+      <Operand datatype="ANY_STRING" name="GetStringInput">
+        <ReadTarget xsi:type="widgets.brease.TextInput.ReadAction" contentRefId="content_AutomaticMode" widgetRefId="TextInput2">
+          <Method xsi:type="widgets.brease.TextInput.Action.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Automatic_:Parameter.InputWord">
+                <Method xsi:type="opcUa.NodeAction.SetValueString" value="=GetStringInput" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Automatic_:Parameter.CommitWord">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>
