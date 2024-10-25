@@ -1,0 +1,4539 @@
+-- ActiveX: B&R GLVIS_X logfile --
+m_AppDir: E:\Cnc_Sample\
+-- DoPropExchange --
+m_defaultDocFile: 
+m_resourcesPath: 
+m_HidePane: 0
+-- CreateMap -- 
+pResourcePath: E:\Cnc_Sample\
+Can't find <Objects> directory at E:\Cnc_Sample\
+Error reading E:\Cnc_Sample\materials.xml at Line 0, Column 0
+-- CreateMap -- 
+pResourcePath: C:\Program Files (x86)\B&R Robotic Visualization\
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\ARROW\define.xml --
+-- AddRecord --
+CObjTypeDes created: 210
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 121
+Move CS
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Width
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Length
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+Ratio
+Geometry
+REAL
+CParIDRec created
+<ParID> 143
+Triangle length
+Geometry
+REAL
+CParIDRec created
+<ParID> 144
+Thickness
+Geometry
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_NM16\define.xml --
+-- AddRecord --
+CObjTypeDes created: 280
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 131
+Material of Motors
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_NS16\define.xml --
+-- AddRecord --
+CObjTypeDes created: 270
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 131
+Material of Motors
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_RACER\define.xml --
+-- AddRecord --
+CObjTypeDes created: 360
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_RACER_3\define.xml --
+-- AddRecord --
+CObjTypeDes created: 362
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_REBEL_S6_060\define.xml --
+-- AddRecord --
+CObjTypeDes created: 490
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+TCP X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+TCP Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+TCP Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+TCP A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_SMART5_NJ_165\define.xml --
+-- AddRecord --
+CObjTypeDes created: 470
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+TCP X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+TCP Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+TCP Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+TCP A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+TCP B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+TCP C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_SMART5_NJ_220\define.xml --
+-- AddRecord --
+CObjTypeDes created: 480
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+TCP X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+TCP Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+TCP Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+TCP A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+TCP B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+TCP C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\COMAU_SMART5_PAL\define.xml --
+-- AddRecord --
+CObjTypeDes created: 370
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\DELTA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 290
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Base
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Arms
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Forearms
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 133
+Platform
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 134
+Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+Base Radius
+Dimensions
+REAL
+CParIDRec created
+<ParID> 141
+Platform Radius
+Dimensions
+REAL
+CParIDRec created
+<ParID> 142
+Arm Length
+Dimensions
+REAL
+CParIDRec created
+<ParID> 143
+Forearm Lenght
+Dimensions
+REAL
+CParIDRec created
+<ParID> 160
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 170
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\DELTA2\define.xml --
+-- AddRecord --
+CObjTypeDes created: 291
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Base
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Arms
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Pipes
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 133
+Platform
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 134
+Motors
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+Base Radius
+Dimensions
+REAL
+CParIDRec created
+<ParID> 141
+Platform Radius
+Dimensions
+REAL
+CParIDRec created
+<ParID> 142
+Arm Length
+Dimensions
+REAL
+CParIDRec created
+<ParID> 143
+Pipe Length
+Dimensions
+REAL
+CParIDRec created
+<ParID> 144
+Tool Holder Length
+Dimensions
+REAL
+CParIDRec created
+<ParID> 170
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\DENSO_HM4AA0G\define.xml --
+-- AddRecord --
+CObjTypeDes created: 300
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material Base
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Material Arm 1
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Material Arm 2
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 133
+Material Z Axis
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\DIMENSION\define.xml --
+-- AddRecord --
+CObjTypeDes created: 230
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 110
+Radius
+Properties
+REAL
+CParIDRec created
+<ParID> 120
+Num. segments
+Properties
+INT
+CParIDRec created
+<ParID> 121
+Line width
+Properties
+REAL
+CParIDRec created
+<ParID> 122
+Show distance
+Properties
+BOOL
+CParIDRec created
+<ParID> 130
+Red
+Color
+REAL
+CParIDRec created
+<ParID> 131
+Green
+Color
+REAL
+CParIDRec created
+<ParID> 132
+Blue
+Color
+REAL
+CParIDRec created
+<ParID> 140
+State
+Connection
+INT
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\FIXED_PIPE\define.xml --
+-- AddRecord --
+CObjTypeDes created: 340
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Base Point
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Base Point
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Base Point
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Base Point
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Base Point
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Base Point
+REAL
+CParIDRec created
+<ParID> 106
+X
+1st Point
+REAL
+CParIDRec created
+<ParID> 107
+Y
+1st Point
+REAL
+CParIDRec created
+<ParID> 108
+Z
+1st Point
+REAL
+CParIDRec created
+<ParID> 109
+Rot Z
+1st Point
+REAL
+CParIDRec created
+<ParID> 110
+Rot Y
+1st Point
+REAL
+CParIDRec created
+<ParID> 111
+Rot X
+1st Point
+REAL
+CParIDRec created
+<ParID> 116
+X
+2nd Point
+REAL
+CParIDRec created
+<ParID> 117
+Y
+2nd Point
+REAL
+CParIDRec created
+<ParID> 118
+Z
+2nd Point
+REAL
+CParIDRec created
+<ParID> 119
+Rot Z
+2nd Point
+REAL
+CParIDRec created
+<ParID> 120
+Rot Y
+2nd Point
+REAL
+CParIDRec created
+<ParID> 121
+Rot X
+2nd Point
+REAL
+CParIDRec created
+<ParID> 124
+Num. axial segments
+Properties
+INT
+CParIDRec created
+<ParID> 125
+Num. radial segments
+Properties
+INT
+CParIDRec created
+<ParID> 126
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Radius
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Control point Z-distance
+1st Point
+REAL
+CParIDRec created
+<ParID> 151
+Control point Z-distance
+2nd Point
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\GITTER_BOX\define.xml --
+-- AddRecord --
+CObjTypeDes created: 260
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Opened
+Properties
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\ICOSPHERE\define.xml --
+-- AddRecord --
+CObjTypeDes created: 120
+ParID map read
+CParIDRec created
+<ParID> 90
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 110
+Radius
+Properties
+REAL
+CParIDRec created
+<ParID> 120
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 130
+Flat
+Properties
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\JNT_RRPY_DZ_01\define.xml --
+-- AddRecord --
+CObjTypeDes created: 150
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material 1
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 121
+Material 2
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 123
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 124
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+dZ
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius
+Geometry
+REAL
+CParIDRec created
+<ParID> 150
+Rot Z
+Real Axis
+REAL
+CParIDRec created
+<ParID> 151
+Rot Y
+Real Axis
+REAL
+CParIDRec created
+<ParID> 152
+Rot X
+Real Axis
+REAL
+CParIDRec created
+<ParID> 160
+Home joint
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\JNT_RR_DX_01\define.xml --
+-- AddRecord --
+CObjTypeDes created: 170
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 123
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 124
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Radius 1
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius 2
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+dX
+Geometry
+REAL
+CParIDRec created
+<ParID> 143
+Thickness
+Geometry
+REAL
+CParIDRec created
+<ParID> 150
+Rot Z
+Real Axis
+REAL
+CParIDRec created
+<ParID> 160
+Home joint
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\JNT_RR_DZ_01\define.xml --
+-- AddRecord --
+CObjTypeDes created: 220
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material 1
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 121
+Material 2
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 123
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 124
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Radius 1
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius 2
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+dZ
+Geometry
+REAL
+CParIDRec created
+<ParID> 143
+Height 1
+Geometry
+REAL
+CParIDRec created
+<ParID> 144
+Height 2
+Geometry
+REAL
+CParIDRec created
+<ParID> 150
+Rot Z
+Real Axis
+REAL
+CParIDRec created
+<ParID> 160
+Home joint
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\JNT_TZ_DZ_01\define.xml --
+-- AddRecord --
+CObjTypeDes created: 190
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Rod Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 121
+Cart Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 123
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 124
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Radius 1
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius 2
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+dX
+Geometry
+REAL
+CParIDRec created
+<ParID> 143
+Rod Height
+Geometry
+REAL
+CParIDRec created
+<ParID> 144
+Cart Height
+Geometry
+REAL
+CParIDRec created
+<ParID> 145
+Cart Offset
+Geometry
+REAL
+CParIDRec created
+<ParID> 150
+Translation
+Real Axis
+REAL
+CParIDRec created
+<ParID> 160
+Home joint
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\KR210_R2700_EXTRA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 380
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\KR270_R2700_ULTRA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 390
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\LEVER\define.xml --
+-- AddRecord --
+CObjTypeDes created: 330
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 123
+Division
+Properties
+INT
+CParIDRec created
+<ParID> 124
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Radius 1
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius 2
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+dX
+Geometry
+REAL
+CParIDRec created
+<ParID> 143
+Thickness
+Geometry
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\LIGHT\define.xml --
+-- AddRecord --
+CObjTypeDes created: 2
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 130
+Intensity
+Properites
+REAL
+CParIDRec created
+<ParID> 140
+Color
+Properites
+COLOR
+CParIDRec created
+<ParID> 150
+Show mark
+Properites
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\MECH_02_SCARA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 430
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+Q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+Q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+TCP X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+TCP Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Links
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Active Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+A1xy
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 141
+A2xy
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 142
+A0x
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 143
+A0y
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 160
+Link Width
+Geometry
+REAL
+CParIDRec created
+<ParID> 161
+Link Height
+Geometry
+REAL
+CParIDRec created
+<ParID> 170
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\MECH_03_DOUBLE_SCARA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 420
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 130
+Links
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Active Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Passive Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+L1Left
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 141
+L2Left
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 142
+L1Right
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 143
+L2Right
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 144
+X0Left
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 145
+Y0Left
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 146
+X0Right
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 147
+Y0Right
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 148
+Negative
+Mechanic Description
+BOOL
+CParIDRec created
+<ParID> 160
+Link Width
+Geometry
+REAL
+CParIDRec created
+<ParID> 161
+Link Height
+Geometry
+REAL
+CParIDRec created
+<ParID> 170
+Home Robot
+Commands
+BOOL
+CParIDRec created
+<ParID> 180
+Q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 181
+Q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 190
+TCP X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 191
+TCP Y
+TCP Axis
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\MECH_17_RTCP_CA\define.xml --
+-- AddRecord --
+CObjTypeDes created: 440
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 130
+Frame
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Links
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Rotary Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 133
+Prismatic Joints
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+A0x
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 141
+A0y
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 142
+A0z
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 143
+A1x
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 144
+A1y
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 145
+A1z
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 146
+A2x
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 147
+A2y
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 148
+A2z
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 149
+A3x
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 150
+A3y
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 151
+A3z
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 152
+DirectionType
+Mechanic Description
+UDINT
+CParIDRec created
+<ParID> 153
+FrameCADx
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 154
+FrameCADy
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 155
+FrameCADz
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 156
+FrameCAPhi
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 157
+FrameCATheta
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 158
+FrameCAPsi
+Mechanic Description
+REAL
+CParIDRec created
+<ParID> 159
+FrameCAAnglesType
+Mechanic Description
+UDINT
+CParIDRec created
+<ParID> 160
+Link Width
+Geometry
+REAL
+CParIDRec created
+<ParID> 162
+Frame Width
+Geometry
+REAL
+CParIDRec created
+<ParID> 163
+Frame Length X
+Geometry
+REAL
+CParIDRec created
+<ParID> 164
+Frame Length Y
+Geometry
+REAL
+CParIDRec created
+<ParID> 165
+Frame Length Z
+Geometry
+REAL
+CParIDRec created
+<ParID> 166
+Rotary Joint Height
+Geometry
+REAL
+CParIDRec created
+<ParID> 167
+Frame Style
+Style
+INT
+CParIDRec created
+<ParID> 170
+Home Robot
+Commands
+BOOL
+CParIDRec created
+<ParID> 210
+Q_X
+Real Axis
+REAL
+CParIDRec created
+<ParID> 211
+Q_Y
+Real Axis
+REAL
+CParIDRec created
+<ParID> 212
+Q_Z
+Real Axis
+REAL
+CParIDRec created
+<ParID> 213
+Q_C
+Real Axis
+REAL
+CParIDRec created
+<ParID> 214
+Q_A
+Real Axis
+REAL
+CParIDRec created
+<ParID> 220
+TCP_X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 221
+TCP_Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 222
+TCP_Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 223
+TCP_C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 224
+TCP_A
+TCP Axis
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\MESH\define.xml --
+-- AddRecord --
+CObjTypeDes created: 140
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 110
+Spacing
+Properties
+REAL
+CParIDRec created
+<ParID> 120
+Lines
+Properties
+INT
+CParIDRec created
+<ParID> 130
+Grid color
+Color
+COLOR
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\PATH_TRACKER\define.xml --
+-- AddRecord --
+CObjTypeDes created: 200
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 110
+Min. distance
+Properties
+REAL
+CParIDRec created
+<ParID> 111
+Num. records
+Properties
+UDINT
+CParIDRec created
+<ParID> 112
+Tool size
+Properties
+REAL
+CParIDRec created
+<ParID> 113
+Tool type
+Properties
+INT
+CParIDRec created
+<ParID> 130
+Path Color
+Color
+COLOR
+CParIDRec created
+<ParID> 131
+Tool Color
+Color
+COLOR
+CParIDRec created
+<ParID> 140
+Clear
+Commands
+BOOL
+CParIDRec created
+<ParID> 141
+Record
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\PA_PB_01\define.xml --
+-- AddRecord --
+CObjTypeDes created: 310
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+dX
+Dimension
+REAL
+CParIDRec created
+<ParID> 111
+dY
+Dimension
+REAL
+CParIDRec created
+<ParID> 112
+dZ
+Dimension
+REAL
+CParIDRec created
+<ParID> 121
+Line width
+Properties
+REAL
+CParIDRec created
+<ParID> 120
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 122
+Opacity
+Properties
+REAL
+CParIDRec created
+<ParID> 130
+Line color
+Properties
+COLOR
+CParIDRec created
+<ParID> 140
+Style
+Properties
+INT
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\PG_OBJ_GENERIC\define.xml --
+-- AddRecord --
+CObjTypeDes created: 110
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+File name
+Properties
+STRING
+CParIDRec created
+<ParID> 121
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 130
+Cull face
+Properties
+INT
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\PIPE\define.xml --
+-- AddRecord --
+CObjTypeDes created: 240
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 120
+Controls scale
+Properties
+REAL
+CParIDRec created
+<ParID> 121
+Line width
+Properties
+REAL
+CParIDRec created
+<ParID> 122
+Wireframe
+Properties
+BOOL
+CParIDRec created
+<ParID> 123
+Show control points
+Properties
+BOOL
+CParIDRec created
+<ParID> 124
+Num. axial segments
+Properties
+INT
+CParIDRec created
+<ParID> 125
+Num. radial segments
+Properties
+INT
+CParIDRec created
+<ParID> 126
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 130
+Red
+Color
+REAL
+CParIDRec created
+<ParID> 131
+Green
+Color
+REAL
+CParIDRec created
+<ParID> 132
+Blue
+Color
+REAL
+CParIDRec created
+<ParID> 140
+Radius
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Force
+Geometry
+REAL
+CParIDRec created
+<ParID> 200
+State
+Connection
+INT
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\POSITION\define.xml --
+-- AddRecord --
+CObjTypeDes created: 160
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 110
+Radius
+Properties
+REAL
+CParIDRec created
+<ParID> 120
+Num. segments
+Properties
+INT
+CParIDRec created
+<ParID> 121
+Line width
+Properties
+REAL
+CParIDRec created
+<ParID> 130
+Color
+Properties
+COLOR
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\QRC350\define.xml --
+-- AddRecord --
+CObjTypeDes created: 400
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 141
+Tool Type
+Properties
+INT
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\SCENE\define.xml --
+-- AddRecord --
+CObjTypeDes created: 1
+ParID map read
+CParIDRec created
+<ParID> 80
+Perspective
+Properties
+BOOL
+CParIDRec created
+<ParID> 81
+FoV [deg]
+Properties
+REAL
+CParIDRec created
+<ParID> 82
+Zoom
+Properties
+REAL
+CParIDRec created
+<ParID> 90
+Snap [mm]
+Properties
+REAL
+CParIDRec created
+<ParID> 100
+X
+View point
+REAL
+CParIDRec created
+<ParID> 101
+Y
+View point
+REAL
+CParIDRec created
+<ParID> 102
+Z
+View point
+REAL
+CParIDRec created
+<ParID> 103
+X
+View vector
+REAL
+CParIDRec created
+<ParID> 104
+Y
+View vector
+REAL
+CParIDRec created
+<ParID> 105
+Z
+View vector
+REAL
+CParIDRec created
+<ParID> 106
+X
+Orientation vector
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Orientation vector
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Orientation vector
+REAL
+CParIDRec created
+<ParID> 110
+Intensity
+Ambient light
+REAL
+CParIDRec created
+<ParID> 120
+Color
+Ambient light
+COLOR
+CParIDRec created
+<ParID> 140
+Background color
+Color
+COLOR
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\STB_TS_80\define.xml --
+-- AddRecord --
+CObjTypeDes created: 320
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Base
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 131
+Arm 1
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 132
+Arm 2
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 133
+Z Axis
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 134
+Gears
+Materials
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 141
+'L'-version
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\STB_TX_60\define.xml --
+-- AddRecord --
+CObjTypeDes created: 132
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\STB_TX_60L\define.xml --
+-- AddRecord --
+CObjTypeDes created: 133
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\STB_TX_90\define.xml --
+-- AddRecord --
+CObjTypeDes created: 130
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\STB_TX_90L\define.xml --
+-- AddRecord --
+CObjTypeDes created: 131
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\SYSTEM\define.xml --
+-- AddRecord --
+CObjTypeDes created: 0
+ParID map read
+CParIDRec created
+<ParID> 11
+Object name
+System
+STRING
+CParIDRec created
+<ParID> 14
+Visible
+System
+BOOL
+CParIDRec created
+<ParID> 15
+Mask
+System
+STRING
+CParIDRec created
+<ParID> 16
+Outlined
+System
+BOOL
+CParIDRec created
+<ParID> 17
+Selection color
+System
+COLOR
+CParIDRec created
+<ParID> 18
+Auto transf.
+System
+BOOL
+CParIDRec created
+<ParID> 19
+Direct transf.
+System
+BOOL
+CParIDRec created
+<ParID> 20
+Inverse transf.
+System
+BOOL
+CParIDRec created
+<ParID> 28
+Join to parent
+System
+INT
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\TEXT\define.xml --
+-- AddRecord --
+CObjTypeDes created: 350
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 200
+Text
+Properties
+STRING
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\TRF_CS\define.xml --
+-- AddRecord --
+CObjTypeDes created: 250
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 124
+Axis Size
+Properties
+REAL
+CParIDRec created
+<ParID> 125
+Show TCP
+Properties
+BOOL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\TUBE\define.xml --
+-- AddRecord --
+CObjTypeDes created: 180
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 106
+X
+Scale
+REAL
+CParIDRec created
+<ParID> 107
+Y
+Scale
+REAL
+CParIDRec created
+<ParID> 108
+Z
+Scale
+REAL
+CParIDRec created
+<ParID> 120
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 121
+Segments
+Properties
+INT
+CParIDRec created
+<ParID> 122
+Move CS
+Properties
+BOOL
+CParIDRec created
+<ParID> 123
+Flat
+Properties
+BOOL
+CParIDRec created
+<ParID> 140
+Radius top
+Geometry
+REAL
+CParIDRec created
+<ParID> 141
+Radius bottom
+Geometry
+REAL
+CParIDRec created
+<ParID> 142
+Height
+Geometry
+REAL
+-- Parsing C:\Program Files (x86)\B&R Robotic Visualization\Objects\YASKAWA_MH5SII\define.xml --
+-- AddRecord --
+CObjTypeDes created: 410
+ParID map read
+CParIDRec created
+<ParID> 100
+X
+Position
+REAL
+CParIDRec created
+<ParID> 101
+Y
+Position
+REAL
+CParIDRec created
+<ParID> 102
+Z
+Position
+REAL
+CParIDRec created
+<ParID> 103
+Rot Z
+Orientation
+REAL
+CParIDRec created
+<ParID> 104
+Rot Y
+Orientation
+REAL
+CParIDRec created
+<ParID> 105
+Rot X
+Orientation
+REAL
+CParIDRec created
+<ParID> 110
+q1
+Real Axis
+REAL
+CParIDRec created
+<ParID> 111
+q2
+Real Axis
+REAL
+CParIDRec created
+<ParID> 112
+q3
+Real Axis
+REAL
+CParIDRec created
+<ParID> 113
+q4
+Real Axis
+REAL
+CParIDRec created
+<ParID> 114
+q5
+Real Axis
+REAL
+CParIDRec created
+<ParID> 115
+q6
+Real Axis
+REAL
+CParIDRec created
+<ParID> 120
+X
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 121
+Y
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 122
+Z
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 123
+A
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 124
+B
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 125
+C
+TCP Axis
+REAL
+CParIDRec created
+<ParID> 130
+Material
+Properties
+MATERIAL
+CParIDRec created
+<ParID> 140
+Show TCP
+Properties
+BOOL
+CParIDRec created
+<ParID> 150
+Home Robot
+Commands
+BOOL
+-- Parsing E:\Cnc_Sample\RV_Portal.scn --
+-- Parsing E:\Cnc_Sample\RV_Portal.scn --
+-- Opening E:\Cnc_Sample\RV_Portal.scn --
+TRUE
+60
+1
+0
+-236.093
+278.192
+383.936
+0.387225
+-0.56962
+-0.724976
+0.594386
+-0.446874
+0.668587
+0.25
+1,1,1
+0.75,0.75,0.75
+1500
+-3000
+-3000
+1
+1,1,1
+FALSE
+0
+0
+6000
+1
+0.96,0.96,0.81
+FALSE
+-47.8797
+-78.5001
+81.3584
+0
+0
+0
+2
+2
+2
+.\PortalPodstawa.stl
+10: Metal Shine
+1
+110
+1
+-1
+180
+90
+0
+1
+1
+1
+2: Blue Matte
+1: Red Matte
+10
+FALSE
+FALSE
+1
+2
+0
+220
+10
+0
+0
+FALSE
+-29
+-14.5
+-8
+180
+90
+0
+2
+2
+2
+.\PortalX.stl
+13: Black Metal Shine
+1
+-6.5
+50
+21.5
+0
+0
+90
+1
+1
+1
+2: Blue Matte
+1: Red Matte
+10
+FALSE
+FALSE
+1
+2
+0
+170
+10
+0
+0
+FALSE
+-11
+105.5
+-12
+0
+0
+-90
+2
+2
+2
+.\PortalY.stl
+6: Orange Matte
+1
+-7
+-2
+-90
+0
+0
+180
+1
+1
+1
+2: Blue Matte
+1: Red Matte
+10
+FALSE
+FALSE
+1
+2
+0
+25
+2
+0
+0
+FALSE
+-5
+0
+-5
+0
+0
+180
+2
+2
+2
+.\PortalZ.stl
+7: White Matte
+1
+-7
+0
+-30
+0
+0
+0
+1
+1
+1
+1
+1001
+0
+0
+0,1,0
+0.5,0.5,0.5
+FALSE
+TRUE
