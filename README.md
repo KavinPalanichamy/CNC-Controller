@@ -10,7 +10,9 @@ The CNC Engraving Machine offers three working modes accessible through an HMI p
   - Language Options: English & Polish
   - User Login Options
   - Recipe Support
-     
+
+![Picture1](https://github.com/user-attachments/assets/e5d91e65-1209-477b-8d21-9f8886eaae66)
+
 [Presentation.pptx](https://github.com/user-attachments/files/17525715/Presentation.pptx)
 
 ## HMI Features
